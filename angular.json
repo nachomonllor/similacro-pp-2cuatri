@@ -137,6 +137,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "moviesapp"
+    }
+  },
+  "defaultProject": "moviesapp",
+  "cli": {
+    "analytics": "d03136f5-de26-4488-8bec-d0ee68fcac5e"
+  }
 }

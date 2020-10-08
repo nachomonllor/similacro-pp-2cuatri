@@ -1,8 +1,10 @@
+import { CineDetalleComponent } from './../cine-detalle/cine-detalle.component';
 import { Component, OnInit, ViewChild, Input, SimpleChanges, OnChanges } from '@angular/core';
 import { Cine } from '../cine.model';
 import { CineService } from '../cine.service';
 import { CineTablaComponent } from '../cine-tabla/cine-tabla.component';
 import { Pelicula } from '../../peliculas/pelicula.model';
+
 
 @Component({
   selector: 'app-cine-listado',

@@ -1,0 +1,12 @@
+Detalle del Cine:
+<img [src]="cine.foto" alt="foto Cine" />
+<form>
+
+    <div class="form-group">
+        <label>Nombre</label>
+        <span class="form-control">{{ cine.nombre }}</span>
+    </div>
+
+    <button class="btn btn-danger btn-lg mr-3" (click)="onDelete(cine)">Eliminar</button>
+
+</form>
