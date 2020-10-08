@@ -1,4 +1,3 @@
-import { CineDetalleComponent } from './components/cines/cine-detalle/cine-detalle.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
@@ -60,10 +59,7 @@ import { environment } from '../environments/environment.prod';
     CineAltaComponent,
     CineTablaComponent,
     CineListadoComponent,
-    CineDetalleComponent,
     FilterPipe
-
-     
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,6 @@ import { Pelicula } from '../pelicula.model';
   styleUrls: ['./pelicula-detalle.component.scss']
 })
 export class PeliculaDetalleComponent {
-  
   @Input() pelicula: Pelicula;
   @Output() peliculaDeleted: EventEmitter<Pelicula> = new EventEmitter<Pelicula>();
   @Output() back: EventEmitter<any> = new EventEmitter<any>();
@@ -19,6 +18,7 @@ export class PeliculaDetalleComponent {
     public _peliculaService: PeliculaService) {}
 
   onDelete(pelicula) {
+    debugger
     this._peliculaService.deleteMovie(pelicula.id);
     this.peliculaDeleted.emit(pelicula);
     this.onClose();
