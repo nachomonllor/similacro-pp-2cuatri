@@ -38,6 +38,9 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
 import { environment } from '../environments/environment.prod';
 
+
+import { NgxPaginationModule } from 'ngx-pagination'; // <-- import the module
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +62,8 @@ import { environment } from '../environments/environment.prod';
     CineAltaComponent,
     CineTablaComponent,
     CineListadoComponent,
-    FilterPipe
+    FilterPipe,
+   
   ],
   imports: [
     BrowserModule,
@@ -71,6 +75,7 @@ import { environment } from '../environments/environment.prod';
     AngularFireAuthModule,
     // capacidad de trabajar offline con firebase
     AngularFirestoreModule,
+    NgxPaginationModule,
     AngularFireModule.initializeApp(environment.firebase),
   ],
   providers: [AngularFirestore],

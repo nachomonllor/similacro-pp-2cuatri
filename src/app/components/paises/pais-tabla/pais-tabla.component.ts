@@ -13,7 +13,12 @@ export class PaisTablaComponent implements OnInit {
   @Input() paises: Pais[] = [];
   searchTerm: string;
   url = 'https://restcountries.eu/rest/v2/region/americas';
-  constructor(public _paisService: PaisService) { }
+
+  public p: number;  // paginacion primer page 
+
+  constructor(public _paisService: PaisService) {
+    this.p = 1;
+   }
 
   ngOnInit() {
     this._paisService.get<Pais>(this.url).subscribe(paises => {

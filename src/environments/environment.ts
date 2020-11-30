@@ -12,13 +12,13 @@ export const environment = {
     // storageBucket: 'moviesapp-9566c.appspot.com',
     // messagingSenderId: '714889467891',
     // appId: '1:714889467891:web:828423b97ff5c0045fe486'
-    apiKey: 'AIzaSyBCTnKa1f4ibCYW69xfr95ded4orEmt4hc',
-    authDomain: 'simulacro-pp.firebaseapp.com',
-    databaseURL: 'https://simulacro-pp.firebaseio.com',
-    projectId: 'simulacro-pp',
-    storageBucket: 'simulacro-pp.appspot.com',
-    messagingSenderId: '46066737086',
-    appId: '1:46066737086:web:839865e61e809deaff23ef'
+    apiKey: "AIzaSyBNlKUUiU3Dom-XmZyFL77ZXPVs53xObBU",
+    authDomain: "primerparcial2.firebaseapp.com",
+    databaseURL: "https://primerparcial2.firebaseio.com",
+    projectId: "primerparcial2",
+    storageBucket: "primerparcial2.appspot.com",
+    messagingSenderId: "133117115551",
+    appId: "1:133117115551:web:5c1b4a1e64e0a37d54b6aa"
   }
 };
 
